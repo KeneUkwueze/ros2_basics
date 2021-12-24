@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[0.055s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.211s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.240s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Configuring done
+[0.562s] -- Generating done
+[0.563s] -- Build files have been written to: /home/kenechi/ros2_ws/build/my_cpp_pkg
+[0.584s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.612s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.847s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[1.932s] [100%] Built target cpp_node
+[1.942s] Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[1.977s] Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/kenechi/ros2_ws/build/my_cpp_pkg
+[1.985s] -- Install configuration: ""
+[1.986s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.986s] -- Set runtime path of "/home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[1.986s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.987s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.987s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.987s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.987s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.987s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.987s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.987s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.987s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.988s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.988s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.988s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.988s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.988s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.988s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.990s] Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/kenechi/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[0.067s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.235s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.446s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.448s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] CMake Error at CMakeLists.txt:16 (find_package):
+[0.577s]   By not providing "Findexampe_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.577s]   project has asked CMake to find a package configuration file provided by
+[0.577s]   "exampe_interfaces", but CMake did not find one.
+[0.577s] 
+[0.577s]   Could not find a package configuration file provided by "exampe_interfaces"
+[0.578s]   with any of the following names:
+[0.578s] 
+[0.578s]     exampe_interfacesConfig.cmake
+[0.578s]     exampe_interfaces-config.cmake
+[0.578s] 
+[0.578s]   Add the installation prefix of "exampe_interfaces" to CMAKE_PREFIX_PATH or
+[0.578s]   set "exampe_interfaces_DIR" to a directory containing one of the above
+[0.578s]   files.  If "exampe_interfaces" provides a separate development package or
+[0.578s]   SDK, be sure it has been installed.
+[0.578s] 
+[0.578s] 
+[0.578s] -- Configuring incomplete, errors occurred!
+[0.579s] See also "/home/kenechi/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.579s] See also "/home/kenechi/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[0.581s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.584s] Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24

@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kenechi/ros2_ws/build/my_cpp_pkg
+[35m[1mScanning dependencies of target smartphone[0m
+[ 33%] Built target cpp_node
+[ 66%] Built target robot_news_station
+[ 83%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[100%] [32m[1mLinking CXX executable smartphone[0m
+[100%] Built target smartphone
+-- Install configuration: ""
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+-- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+-- Set runtime path of "/home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+-- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+-- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+-- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml

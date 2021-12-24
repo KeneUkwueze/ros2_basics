@@ -1,0 +1,2 @@
+Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24

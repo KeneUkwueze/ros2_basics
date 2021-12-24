@@ -1,0 +1,1 @@
+Invoking command in '/home/kenechi/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/kenechi/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/kenechi/ros2_ws/build/my_py_pkg/build

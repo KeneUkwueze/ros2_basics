@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[0.042s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.344s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[1.423s] [100%] Built target cpp_node
+[1.434s] Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/kenechi/ros2_ws/build/my_cpp_pkg -- -j24 -l24
+[1.468s] Invoking command in '/home/kenechi/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/kenechi/ros2_ws/build/my_cpp_pkg
+[1.476s] -- Install configuration: ""
+[1.477s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.477s] -- Set runtime path of "/home/kenechi/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[1.477s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.477s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.477s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.477s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.477s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.478s] -- Installing: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.478s] -- Up-to-date: /home/kenechi/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.480s] Invoked command in '/home/kenechi/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/kenechi/ros2_ws/build/my_cpp_pkg

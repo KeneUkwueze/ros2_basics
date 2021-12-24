@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000655] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000747] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000789] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.008369] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.008824] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.009435] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kenechi/ros2_ws/build/my_cpp_pkg', '--', '-j24', '-l24'], 'cwd': '/home/kenechi/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'kenechi'), ('SSH_AGENT_PID', '1914'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/kenechi'), ('OLDPWD', '/home/kenechi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6768'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/kenechi/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'kenechi'), ('JOURNAL_STREAM', '8:67758'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kenechi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/kenechi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/LookRobotics-System-Product-Name:@/tmp/.ICE-unix/1950,unix/LookRobotics-System-Product-Name:/tmp/.ICE-unix/1950'), ('INVOCATION_ID', '0da0c4e95d99404ab1a416592f480d66'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kenechi/ros2_ws/install/my_py_pkg:/home/kenechi/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f7b13caa-d5a6-482f-b7e4-6ff4dbbab24d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kenechi/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kenechi/ros2_ws/build/my_py_pkg:/home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/kenechi/ros2_ws/install/my_cpp_pkg:/home/kenechi/ros2_ws/install/my_py_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.034512] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.056475] (my_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099268] (-) TimerEvent: {}
+[0.179202] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199335] (-) TimerEvent: {}
+[0.202632] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.205051] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299420] (-) TimerEvent: {}
+[0.310597] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.346474] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.347411] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399499] (-) TimerEvent: {}
+[0.462383] (my_cpp_pkg) StderrLine: {'line': b'CMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.462530] (my_cpp_pkg) StderrLine: {'line': b'  By not providing "Findexampe_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[0.462619] (my_cpp_pkg) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[0.462701] (my_cpp_pkg) StderrLine: {'line': b'  "exampe_interfaces", but CMake did not find one.\n'}
+[0.462781] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[0.462861] (my_cpp_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "exampe_interfaces"\n'}
+[0.462941] (my_cpp_pkg) StderrLine: {'line': b'  with any of the following names:\n'}
+[0.463028] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[0.463112] (my_cpp_pkg) StderrLine: {'line': b'    exampe_interfacesConfig.cmake\n'}
+[0.463197] (my_cpp_pkg) StderrLine: {'line': b'    exampe_interfaces-config.cmake\n'}
+[0.463282] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[0.463369] (my_cpp_pkg) StderrLine: {'line': b'  Add the installation prefix of "exampe_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[0.463455] (my_cpp_pkg) StderrLine: {'line': b'  set "exampe_interfaces_DIR" to a directory containing one of the above\n'}
+[0.463540] (my_cpp_pkg) StderrLine: {'line': b'  files.  If "exampe_interfaces" provides a separate development package or\n'}
+[0.463625] (my_cpp_pkg) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[0.463710] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[0.463794] (my_cpp_pkg) StderrLine: {'line': b'\n'}
+[0.463982] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.464073] (my_cpp_pkg) StdoutLine: {'line': b'See also "/home/kenechi/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.464155] (my_cpp_pkg) StdoutLine: {'line': b'See also "/home/kenechi/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeError.log".\n'}
+[0.466425] (my_cpp_pkg) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[0.468803] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[0.499662] (-) TimerEvent: {}
+[0.502863] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[0.513123] (-) EventReactorShutdown: {}

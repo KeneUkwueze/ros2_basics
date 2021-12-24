@@ -1,0 +1,18 @@
+CMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findexampe_interfaces.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "exampe_interfaces", but CMake did not find one.
+
+  Could not find a package configuration file provided by "exampe_interfaces"
+  with any of the following names:
+
+    exampe_interfacesConfig.cmake
+    exampe_interfaces-config.cmake
+
+  Add the installation prefix of "exampe_interfaces" to CMAKE_PREFIX_PATH or
+  set "exampe_interfaces_DIR" to a directory containing one of the above
+  files.  If "exampe_interfaces" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

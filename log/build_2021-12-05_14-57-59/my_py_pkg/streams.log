@@ -1,0 +1,24 @@
+[0.170s] Invoking command in '/home/kenechi/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kenechi/ros2_ws/build/my_py_pkg/build install --prefix /home/kenechi/ros2_ws/install/my_py_pkg --record /home/kenechi/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.312s] running egg_info
+[0.312s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.312s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.312s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.312s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.312s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.336s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.337s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.337s] running build
+[0.337s] running build_py
+[0.337s] copying my_py_pkg/template_python_node.py -> /home/kenechi/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.337s] running install
+[0.337s] running install_lib
+[0.338s] copying /home/kenechi/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg
+[0.338s] byte-compiling /home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-38.pyc
+[0.339s] running install_data
+[0.339s] running install_egg_info
+[0.340s] removing '/home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.340s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages/my_py_pkg-0.0.0-py3.8.egg-info
+[0.341s] running install_scripts
+[0.351s] Installing py_node script to /home/kenechi/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.351s] writing list of installed files to '/home/kenechi/ros2_ws/build/my_py_pkg/install.log'
+[0.364s] Invoked command in '/home/kenechi/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/kenechi/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kenechi/ros2_ws/build/my_py_pkg/build install --prefix /home/kenechi/ros2_ws/install/my_py_pkg --record /home/kenechi/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
