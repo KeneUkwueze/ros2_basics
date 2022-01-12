@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/kenechi/ros2_ws/build/my_py_pkg
+prepend-non-duplicate;PYTHONPATH;/home/kenechi/ros2_ws/ros2_basics/build/my_py_pkg
